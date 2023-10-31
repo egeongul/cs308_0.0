@@ -2,16 +2,12 @@ package view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.cs308_00.R
-import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
+class Dashboard : AppCompatActivity() {
 
     lateinit var toggle : ActionBarDrawerToggle
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,5 +30,4 @@ class MainActivity : AppCompatActivity() {
         }
         return false
     }
-
 }
